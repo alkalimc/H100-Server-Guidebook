@@ -15,10 +15,7 @@
 操作:
 * 使用命令`nvidia-smi`命令查询GPU的工作状态
 * 使用命令`free`查看内存的占用状态
-* 使用命令`squeue`查看slurm系统中任务的排队情况
-* 使用命令`sinfo`查看slurm Cluster的工作状态
-* 使用命令`scontrol show nodes`查看slurm Node的配置
 
-若要显式指定任务在特定类型GPU上运行，参见[slurm系统的使用](https://github.com/alkalimc/H100-Server-Guidebook/blob/main/chapter/general/slurm.md)
+> 若要显式指定任务在特定类型GPU上运行，参见[slurm系统的使用](https://github.com/alkalimc/H100-Server-Guidebook/blob/main/chapter/general/slurm.md)
 
 下一节-[部署zsh并为其安装插件](https://github.com/alkalimc/H100-Server-Guidebook/blob/main/chapter/general/zsh.md)

@@ -20,18 +20,19 @@
 * 启用了HuggingFace镜像站的环境变量，可以通过`/data/disk0/Service/hfd.sh`调用镜像下载模型，参见[hfd工具的使用](https://github.com/alkalimc/H100-Server-Guidebook/blob/main/chapter/general/hfd.md)
 * 将HuggingFace的工作目录修改到了`/data/disk0/HuggingFace`下
 * 一般应避免使用`rm -rf`，以`mv`要删除的文件到`/data/disk0/Trash`下替代
-* 启用了fail2ban功能，因多次错误提交密钥而被误封请联系管理员
+* 启用了fail2ban功能，因多次错误提交密钥而被误封请联系管理员或等待1h再次尝试与服务器建立连接
 * 管理员应避免直接在自己账号的ssh连接内通过`su example`切换到其他用户为其配置环境或排障，此举会临时继承自己环境中定义的环境变量到其他用户的环境中，导致出现未定义的问题
 
 ### 用户应先修改管理员提供的默认密钥为自己的强密钥
 
 快速入门手册:
-
 * [服务器软硬件](https://github.com/alkalimc/H100-Server-Guidebook/blob/main/chapter/general/softwareAndHardware.md)
 * [部署zsh并为其安装插件](https://github.com/alkalimc/H100-Server-Guidebook/blob/main/chapter/general/zsh.md)
 * [Anaconda环境的部署与使用](https://github.com/alkalimc/H100-Server-Guidebook/blob/main/chapter/general/anaconda.md)
-* [hfd工具的使用](https://github.com/alkalimc/H100-Server-Guidebook/blob/main/chapter/general/slurm.md)
+* [HuggingFace模型及数据集的下载的使用](https://github.com/alkalimc/H100-Server-Guidebook/blob/main/chapter/general/huggingface.md)
 * [slurm系统的使用](https://github.com/alkalimc/H100-Server-Guidebook/blob/main/chapter/general/slurm.md)
 
 管理手册:
-* [fail2ban的使用](https://github.com/alkalimc/H100-Server-Guidebook/blob/main/chapter/general/fail2ban.md)
+* [新用户环境的部署](https://github.com/alkalimc/H100-Server-Guidebook/blob/main/chapter/admin/newUser.md)
+* [firewall的使用](https://github.com/alkalimc/H100-Server-Guidebook/blob/main/chapter/admin/firewall.md)
+* [fail2ban的使用](https://github.com/alkalimc/H100-Server-Guidebook/blob/main/chapter/admin/fail2ban.md)
