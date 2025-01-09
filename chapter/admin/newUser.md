@@ -1,6 +1,5 @@
 新建用户:
 其中`username`应替换为实际用户名
-
 * 使用命令`sudo useradd -m username -s /bin/bash`新建用户并指定shell为bash，
 * 使用命令`passwd username`为新用户设置密钥
 
