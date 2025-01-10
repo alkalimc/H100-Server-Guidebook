@@ -4,6 +4,7 @@
 * GPU Driver: `550.127.08`
 * CUDA: `12.4.1`
 * CUDNN: `9.6.0`
+* Triton: `2.51.0`
 * Anaconda: `2024.10`
 
 硬件资源:
@@ -16,6 +17,6 @@
 * 使用命令`nvidia-smi`命令查询GPU的工作状态
 * 使用命令`free`查看内存的占用状态
 
-> 若要显式指定任务在特定类型GPU上运行，参见[slurm系统的使用](https://github.com/alkalimc/H100-Server-Guidebook/blob/main/chapter/general/slurm.md)
+> 若要显式指定任务在特定类型GPU上运行，参见[SLURM系统的使用](https://github.com/alkalimc/H100-Server-Guidebook/blob/main/chapter/general/slurm.md)
 
-下一节-[部署zsh并为其安装插件](https://github.com/alkalimc/H100-Server-Guidebook/blob/main/chapter/general/zsh.md)
+下一节-[部署ZSH并为其安装插件](https://github.com/alkalimc/H100-Server-Guidebook/blob/main/chapter/general/zsh.md)

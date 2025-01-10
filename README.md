@@ -11,8 +11,8 @@
 * 未经特殊说明服务器内的一切数据禁止分发，授权分发的内容请传至终端后再进行进一步操作
 
 注意:
-* 应使用[anaconda](https://github.com/alkalimc/H100-Server-Guidebook/blob/main/chapter/general/anaconda.md)部署python环境，一般不得在服务器基础环境内安装pip包
-* 应使用[slurm](https://github.com/alkalimc/H100-Server-Guidebook/blob/main/chapter/general/slurm.md)部署长时计算任务，一般不得直接在终端下部署工作负载
+* 应使用[Anaconda](https://github.com/alkalimc/H100-Server-Guidebook/blob/main/chapter/general/anaconda.md)部署python环境，一般不得在服务器基础环境内安装pip包
+* 应使用[SLURM](https://github.com/alkalimc/H100-Server-Guidebook/blob/main/chapter/general/slurm.md)部署长时计算任务，一般不得直接在终端下部署工作负载
 * 应将服务部署到`/data/disk0/Service`，已经为其创建PATH
 * `/home`目录已经被连接到`/data/disk0/Home`，因此允许直接在自己的家目录下部署环境及存储资源
 * 如有需求，应在`/data/disk0/Workspace`下创建其他工作目录
@@ -28,10 +28,10 @@
 
 快速入门手册:
 * [服务器软硬件](https://github.com/alkalimc/H100-Server-Guidebook/blob/main/chapter/general/softwareAndHardware.md)
-* [部署zsh并为其安装插件](https://github.com/alkalimc/H100-Server-Guidebook/blob/main/chapter/general/zsh.md)
+* [部署ZSH并为其安装插件](https://github.com/alkalimc/H100-Server-Guidebook/blob/main/chapter/general/zsh.md)
 * [Anaconda环境的部署与使用](https://github.com/alkalimc/H100-Server-Guidebook/blob/main/chapter/general/anaconda.md)
-* [HuggingFace模型及数据集的下载的使用](https://github.com/alkalimc/H100-Server-Guidebook/blob/main/chapter/general/huggingface.md)
-* [slurm系统的使用](https://github.com/alkalimc/H100-Server-Guidebook/blob/main/chapter/general/slurm.md)
+* [Hugging Face模型及数据集的下载的使用](https://github.com/alkalimc/H100-Server-Guidebook/blob/main/chapter/general/huggingface.md)
+* [SLURM系统的使用](https://github.com/alkalimc/H100-Server-Guidebook/blob/main/chapter/general/slurm.md)
 
 管理手册:
 * [新用户环境的部署](https://github.com/alkalimc/H100-Server-Guidebook/blob/main/chapter/admin/newUser.md)

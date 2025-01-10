@@ -49,4 +49,4 @@ python [your_script].py #应改为项目python代码文件
 * 查看工作目录下生成的`%j.out`和`%j.err`文件了解计算任务的工作状态
 * 使用命令`scancel jobID`中止计算任务，其中jobID可通过`squeue`查询
 
-> 更多高级功能指导，参见[slurm快速入门用户指南](https://slurm.schedmd.com/quickstart.html)
+> 更多高级功能指导，参见[SLURM快速入门用户指南](https://slurm.schedmd.com/quickstart.html)

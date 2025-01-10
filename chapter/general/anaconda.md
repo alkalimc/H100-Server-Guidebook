@@ -1,6 +1,6 @@
 > 管理员应避免直接在自己账号的ssh连接内通过`su example`切换到其他用户为其配置环境或排障，此举会临时继承自己环境中定义的环境变量到其他用户的环境中，导致出现未定义的问题
 
-> 如果需要使用zsh，应在执行此节操作前完成[部署zsh并为其安装插件](https://github.com/alkalimc/H100-Server-Guidebook/blob/main/chapter/general/zsh.md)，否则需要手动添加conda环境变量到`.zshrc`
+> 如果需要使用ZSH，应在执行此节操作前完成[部署ZSH并为其安装插件](https://github.com/alkalimc/H100-Server-Guidebook/blob/main/chapter/general/zsh.md)，否则需要手动添加conda环境变量到`.zshrc`
 
 安装步骤:
 * 使用命令`/data/disk0/Tutorial/Anaconda3-2024.10-1-Linux-x86_64.sh`启动部署程序，不得在此处使用`sudo`
@@ -25,4 +25,4 @@
 
 安装PyTorch: `conda install pytorch torchvision torchaudio pytorch-cuda=12.4 -c pytorch -c nvidia`
 
-下一节-[HuggingFace模型及数据集的下载的使用](https://github.com/alkalimc/H100-Server-Guidebook/blob/main/chapter/general/huggingface.md)
+下一节-[Hugging Face模型及数据集的下载的使用](https://github.com/alkalimc/H100-Server-Guidebook/blob/main/chapter/general/huggingface.md)

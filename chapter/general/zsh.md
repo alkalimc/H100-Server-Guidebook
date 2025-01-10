@@ -1,4 +1,4 @@
-> 此节为可选节，对于没有zsh使用需求的用户，可以跳过此节并保持使用bash
+> 此节为可选节，对于没有ZSH使用需求的用户，可以跳过此节并保持使用bash
 
 部署oh-my-zsh:
 * 使用命令`/data/disk0/Tutorial/zsh/install.sh`启动部署程序，不得在此处使用`sudo`
@@ -6,13 +6,13 @@
 * 当出现`Password:`，输入你的密钥
 
 安装插件:
-> 此节为可选节，对于没有zsh插件使用需求的用户，可以跳过此节
+> 此节为可选节，对于没有使用插件需求的用户，可以跳过此节
 
 * 使用命令`git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting`安装语法高亮插件
 * 使用命令`git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions`安装历史记录补全插件
 
 安装主题:
-> 此节为可选节，对于没有zsh更换主题需求的用户，可以跳过此节
+> 此节为可选节，对于没有更换主题需求的用户，可以跳过此节
 
 * 使用命令`cp -r /data/disk0/Tutorial/zsh/powerlevel10k ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/themes/powerlevel10k`
 
