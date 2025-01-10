@@ -13,6 +13,7 @@
 注意:
 * 应使用[anaconda](https://github.com/alkalimc/H100-Server-Guidebook/blob/main/chapter/general/anaconda.md)部署python环境，一般不得在服务器基础环境内安装pip包
 * 应使用[slurm](https://github.com/alkalimc/H100-Server-Guidebook/blob/main/chapter/general/slurm.md)部署长时计算任务，一般不得直接在终端下部署工作负载
+* 应将服务部署到`/data/disk0/Service`，已经为其创建PATH
 * `/home`目录已经被连接到`/data/disk0/Home`，因此允许直接在自己的家目录下部署环境及存储资源
 * 如有需求，应在`/data/disk0/Workspace`下创建其他工作目录
 * 应将手动下载的模型文件存储在`/data/disk0/Models`下以便共享使用，对于有保密需求的，应将其存储在自己的家目录下
