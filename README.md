@@ -37,6 +37,7 @@
 * [新用户环境的部署](https://github.com/alkalimc/H100-Server-Guidebook/blob/main/chapter/admin/newUser.md)
 * [firewall的使用](https://github.com/alkalimc/H100-Server-Guidebook/blob/main/chapter/admin/firewall.md)
 * [fail2ban的使用](https://github.com/alkalimc/H100-Server-Guidebook/blob/main/chapter/admin/fail2ban.md)
+* [vncserver的使用](https://github.com/alkalimc/H100-Server-Guidebook/blob/main/chapter/admin/vncserver.md)
 
 附加文件:
 * [终端字体](https://github.com/alkalimc/H100-Server-Guidebook/blob/main/file/font)
