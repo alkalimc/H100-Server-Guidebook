@@ -12,3 +12,5 @@
 * 使用命令`sudo systemctl restart fail2ban`重启fail2ban服务
 * 使用命令`sudo fail2ban-client status sshd`查看封禁列表
 * 使用命令`sudo fail2ban-client set sshd unbanip ip`解封IP地址，其中`ip`应被替换为实际IP地址
+
+下一节-[vncserver的使用](https://github.com/alkalimc/H100-Server-Guidebook/blob/main/chapter/admin/vncserver.md)
