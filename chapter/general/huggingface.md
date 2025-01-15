@@ -3,6 +3,7 @@ huggingface-cli的使用:
 * 使用命令`huggingface-cli download --repo-type dataset --resume-download dataset --local-dir /data/disk0/Dataset/dataset`下载训练集，其中`dataset`应替换为训练集名称
 
 hfd的使用:
+* 使用命令`source /etc/profile`使`hfd`生效
 * 使用命令`cd /data/disk0/Model`或命令`cd /data/disk0/Dataset`进入存储模型或训练集的目录
 * 使用命令`hfd.sh model`下载模型，其中`model`应替换为模型名称
 * 使用命令`hfd.sh dataset --dataset`下载训练集，其中`dataset`应替换为训练集名称

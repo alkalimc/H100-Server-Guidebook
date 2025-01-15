@@ -30,7 +30,7 @@
 * [服务器软硬件](https://github.com/alkalimc/H100-Server-Guidebook/blob/main/chapter/general/softwareAndHardware.md)
 * [部署ZSH并为其安装插件](https://github.com/alkalimc/H100-Server-Guidebook/blob/main/chapter/general/zsh.md)
 * [Anaconda环境的部署与使用](https://github.com/alkalimc/H100-Server-Guidebook/blob/main/chapter/general/anaconda.md)
-* [Hugging Face模型及数据集的下载的使用](https://github.com/alkalimc/H100-Server-Guidebook/blob/main/chapter/general/huggingface.md)
+* [Hugging Face模型及数据集的下载](https://github.com/alkalimc/H100-Server-Guidebook/blob/main/chapter/general/huggingface.md)
 * [SLURM系统的使用](https://github.com/alkalimc/H100-Server-Guidebook/blob/main/chapter/general/slurm.md)
 
 管理手册:

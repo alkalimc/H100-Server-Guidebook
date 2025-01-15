@@ -25,4 +25,4 @@
 
 安装PyTorch: `conda install pytorch torchvision torchaudio pytorch-cuda=12.4 -c pytorch -c nvidia`
 
-下一节-[Hugging Face模型及数据集的下载的使用](https://github.com/alkalimc/H100-Server-Guidebook/blob/main/chapter/general/huggingface.md)
+下一节-[Hugging Face模型及数据集的下载](https://github.com/alkalimc/H100-Server-Guidebook/blob/main/chapter/general/huggingface.md)
