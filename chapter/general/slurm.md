@@ -35,7 +35,7 @@ python
 #SBATCH --nodes=1
 #SBATCH --partition=compute
 #SBATCH --ntasks=1 #CPU密集型负载应将此值增大，取值在1-96之间，不超过48为宜
-#SBATCH --gres=H100:1 #调用n张4090其值应为4090:n，n取值在1-3之间，调用H100其值应为H100:1
+#SBATCH --gres=gpu:H100:1 #调用n张4090其值应为gpu:4090:n，n取值在1-3之间，调用H100其值应为gpu:H100:1
 
 source /your/conda/path/etc/profile.d/conda.sh #应改为家目录下的conda环境目录
 conda activate name #name应改为项目虚拟环境名称
