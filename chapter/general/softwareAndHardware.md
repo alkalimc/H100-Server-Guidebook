@@ -9,8 +9,8 @@
 
 硬件资源:
 * CPU: `Intel Xeon Gold 5418Y (96) @ 3.800GHz`
-* Memory: `DDR5-4800 RDIMM 384GB`
-* GPU: `NVIDIA GeForce RTX 4090`\**3 + `NVIDIA H100 80GB HBM3`\**1
+* Memory: `DDR5-4800 RDIMM 512GB`
+* GPU: `NVIDIA GeForce RTX 4090`\**6 + `NVIDIA H100 80GB HBM3`\**1
 * Storage: `480GB SATA SSD` + `10TB SATA HDD`
 
 操作:
