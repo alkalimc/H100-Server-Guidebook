@@ -3,7 +3,7 @@
 > 如果需要使用ZSH，应在执行此节操作前完成[部署ZSH并为其安装插件](https://github.com/alkalimc/H100-Server-Guidebook/blob/main/chapter/general/zsh.md)，否则需要手动添加conda环境变量到`.zshrc`
 
 安装步骤:
-* 使用命令`/data/disk0/Tutorial/Anaconda3-2024.10-1-Linux-x86_64.sh`启动部署程序，不得在此处使用`sudo`
+* 使用命令`/data/disk0/Tutorial/Anaconda3-2025.12-2-Linux-x86_64.sh`启动部署程序，不得在此处使用`sudo`
 * 当出现`Please, press ENTER to continue`，一直按下Enter直至出现`Please answer 'yes' or 'no':'`，输入`yes`
 * 检查`[/home/example/anaconda3] >>>`中`example`的内容是否为你的用户名，如果是则按下Enter
 * 当出现`You can undo this by running ``conda init --reverse $SHELL``? [yes|no]`，输入`yes`
